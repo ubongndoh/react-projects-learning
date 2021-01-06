@@ -1,7 +1,7 @@
-# Getting Started with Create React App
+#### Idea
+
+[uidesigndaily](https://uidesigndaily.com/posts/sketch-accordion-website-day-1175)
+
+![](./idea.png);
 
 https://accordion-react-apps.netlify.app/
-
-```
-
-```
