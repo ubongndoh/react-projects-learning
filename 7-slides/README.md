@@ -1,3 +1,3 @@
 # Getting Started with Create React App
 
-https://food-menu-app.netlify.app/
+https://react-slides.netlify.app/
