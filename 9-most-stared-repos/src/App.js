@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 import InfiniteScroll from 'react-infinite-scroll-component';
-import Row from './components/row/Row';
+import Row from './components/Row';
 import API_CALL from './utils/apiCall';
 import formatDate from './utils/formateDate';
 

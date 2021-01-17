@@ -23,6 +23,9 @@
 	margin-bottom: 10px;
 	color: #0366d6;
 }
+a.row__html_url {
+	color: #0366d6;
+}
 
 .row__description {
 	margin-bottom: 20px;
@@ -31,6 +34,7 @@
 .row__details {
 	display: flex;
 	align-items: center;
+	margin-top: 12px;
 }
 
 .stars-issues-container {

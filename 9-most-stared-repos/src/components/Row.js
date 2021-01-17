@@ -3,7 +3,14 @@ import './row.css';
 
 const Row = (props) => {
 	const {
-		item: { name, description, stargazers_count, open_issues_count, owner },
+		item: {
+			name,
+			description,
+			stargazers_count,
+			html_url,
+			open_issues_count,
+			owner,
+		},
 	} = props;
 
 	return (
@@ -15,6 +22,9 @@ const Row = (props) => {
 			<div className='row__content'>
 				<h2 className='row__name'>{name}</h2>
 				<p className='row__description'>{description}</p>
+				<a href={html_url} className='row__html_url'>
+					{html_url}
+				</a>
 				<div className='row__details'>
 					<div className='stars-issues-container'>
 						<div className='row__stars'>
