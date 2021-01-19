@@ -14,16 +14,16 @@ function Header() {
 						className='search-input'
 						type='text'
 						placeholder='Search countries by name, city and languages'
-						autofocus
+						autoFocus
 					/>
 
 					<div className='buttons'>
 						<button className='name'>
 							Name <i className='fas fa-long-arrow-alt-down name' disabled></i>
 						</button>
-						<button class='capital'>
+						<button className='capital'>
 							Capital{' '}
-							<i class='fas fa-long-arrow-alt-down capital' disabled></i>
+							<i className='fas fa-long-arrow-alt-down capital' disabled></i>
 						</button>
 						<button className='population'>
 							Population
