@@ -35,7 +35,7 @@ function Header() {
 					</div>
 				</div>
 
-				<div className='countries-wrapper'></div>
+				{/* <div className='countries-wrapper'></div>
 				<div className='wrapper'>
 					<div className='graph-buttons'>
 						<button className='population'>Population</button>
@@ -45,7 +45,7 @@ function Header() {
 					<div className='graphs'>
 						<div className='graph-wrapper' id='stat'></div>
 					</div>
-				</div>
+				</div> */}
 			</main>
 		</div>
 	);
