@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Loading from './components/Loading.js';
-import Country from './components/Country';
-function App() {
+
+function App(props) {
 	const [loading, setLoading] = useState(true);
 	const [country, setCountry] = useState([]);
 

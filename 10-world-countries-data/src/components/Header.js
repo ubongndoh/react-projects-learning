@@ -1,6 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-function Header() {
+function Header({ country, setCountry }) {
+	const [input, setInput] = useState('');
+
+	const updateInput = async (input) => {
+		const filtered = country.filter((country) => {
+			return country.name.toLowerCase().includes(input.toLowerCase());
+		});
+		setInput(input);
+		setCountry(filtered);
+	};
+
 	return (
 		<div>
 			<header id='countries'>
@@ -11,8 +21,10 @@ function Header() {
 			<main>
 				<div className='controls'>
 					<input
+						input={input}
 						className='search-input'
 						type='text'
+						onChange={updateInput}
 						placeholder='Search countries by name, city and languages'
 						autoFocus
 					/>
