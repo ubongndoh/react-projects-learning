@@ -36,14 +36,14 @@ function App(props) {
 		<div>
 			<Header />
 			<div className='countries-wrapper'>
-				{country.map((countries) => {
+				{country.map((countries, idx) => {
 					const { name, capital, languages, population, flag } = countries;
 					// const formatedCapital =
 					// 	capital.length > 0 ? `<span>Capital: </span>${capital}` : '';
 					const formatLanguage =
 						languages.length > 1 ? `Languages` : `Language`;
 					return (
-						<div className='country' key={country.id}>
+						<div className='country' key={name.idx}>
 							<div className='country_flag'>
 								<img src={flag} alt='' />
 							</div>
