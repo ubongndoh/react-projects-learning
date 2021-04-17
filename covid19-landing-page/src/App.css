@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: linear-gradient(to bottom right, #fff8f8, #fff8f8);
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+p {
+	font-family: 'Red Hat Text', sans-serif;
+}
+.App {
+	width: 100%;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
